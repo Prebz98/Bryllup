@@ -25,7 +25,7 @@ function App() {
       <div className='title'>
         Ane og Preben
       </div>
-      <Navbar refIntro={refIntro} refHvor={refHvor} />
+      <Navbar refIntro={refIntro} refHvor={refHvor} refDagen={refDagen} />
       <img src={frontpage} alt="ane og preben har det fint" style={imageStyles} />
       <Intro />
       <Hvor secref={refHvor} />

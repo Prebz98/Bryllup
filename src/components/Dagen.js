@@ -1,4 +1,5 @@
 import './Section.css';
+import './Dagen.css';
 import frieri from '../images/frieri.jpg';
 
 function Dagen(props) {
@@ -7,9 +8,12 @@ function Dagen(props) {
             <img src={frieri} alt="dagen" className="section-image" />
             <h2 className='section-title'>Dagen</h2>
             <div className="section-text">
-                <p>
-                    Her beskriver vi dagen littegran. Det blir nok en koselig dag tenker jeg.
-                </p>
+                <ul className="plan">
+                    <li>13:00 - Vielse i Alstadhaug kirke</li>
+                    <li>14:00 - Reise til Øyna</li>
+                    <li>14:30 - Mingle</li>
+                    <li>17:30 - Middag</li>
+                </ul>
             </div>
         </div>
     );
