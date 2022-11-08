@@ -1,0 +1,43 @@
+.section {
+    max-width: 50em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 0 10px;
+    margin-top: 1em;
+    color: #000;
+    background-color: transparent;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: BeautifulPeople;;
+}
+
+.section-text {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-image {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 500px;
+    border: 5px solid white;
+    border-radius: 10%;
+    height: auto;
+}
