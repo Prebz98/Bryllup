@@ -12,7 +12,7 @@ function Dagen(props) {
                     <li>13:00 - Vielse i Alstadhaug kirke</li>
                     <li>14:00 - Reise til Øyna</li>
                     <li>14:30 - Mingle</li>
-                    <li>17:30 - Middag</li>
+                    <li>17:30 - Servering</li>
                 </ul>
             </div>
         </div>

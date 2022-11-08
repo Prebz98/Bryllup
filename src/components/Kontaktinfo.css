@@ -1,0 +1,45 @@
+.kontaktinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 1rem;
+    margin-bottom: 2em;
+    margin-top: 0em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.kontaktpersoner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontakt {
+    margin-top: 2em;
+    width: 100%;
+    background-color: rgb(173, 246, 173);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kontakttittel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1em;
+    font-size: medium;
+}
+
+.navn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0em;
+    font-size: medium;
+    margin-bottom: 0;
+}

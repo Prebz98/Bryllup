@@ -1,8 +1,6 @@
 
 .App {
   text-align: center;
-  width: 100vw;
-  /* justify-content: center; */
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -20,7 +18,7 @@
   font-weight: 500;
   margin: 0 10px;
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   color: #000;
   background-color: transparent;
   text-decoration: none;
@@ -29,5 +27,10 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-family: BeautifulPeople;;
+  font-family: BeautifulPeople;
+}
+
+.subtitle {
+  margin-bottom: 2em;
+  opacity: 0.6;
 }
