@@ -21,7 +21,7 @@
 .kontakt {
     margin-top: 2em;
     width: 100%;
-    background-color: rgb(173, 246, 173);
+    /* background-color: rgb(92, 139, 92); */
     display: flex;
     flex-direction: column;
     align-items: center;
