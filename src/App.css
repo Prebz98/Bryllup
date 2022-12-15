@@ -4,6 +4,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  background-color: rgb(155, 175, 135);
 }
 
 @font-face {

@@ -6,6 +6,7 @@ import {useRef} from 'react';
 import Navbar from './components/navbar';
 import Dagen from './components/Dagen';
 import Kontaktinfo from './components/Kontaktinfo';
+import Overnatting from './components/Overnatting';
 
 const imageStyles = {
   maxWidth: '90%',
@@ -21,6 +22,7 @@ function App() {
   const refHvor = useRef(null);
   const refDagen = useRef(null);
   const refKontakt = useRef(null);
+  const refOvernatting = useRef(null);
 
   return (
     <div className="App" >
@@ -35,6 +37,7 @@ function App() {
       <Intro />
       <Hvor secref={refHvor} />
       <Dagen secref={refDagen} />
+      <Overnatting secref={refOvernatting}/>
       <Kontaktinfo secref={refKontakt}/>
     </div>
   );
