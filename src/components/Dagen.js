@@ -6,12 +6,13 @@ function Dagen(props) {
     return (
         <div className="section" ref={props.secref}>
             <img src={frieri} alt="dagen" className="section-image" />
-            <h2 className='section-title'>Dagen</h2>
+            <h2 className='section-title'>Program for dagen</h2>
             <div className="section-text">
                 <ul className="plan">
-                    <li>14:00 - Vielse i Alstadhaug kirke</li>
-                    <li>15:00 ca. - Reise til Øyna</li>
-                    <li>17:00 - Servering</li>
+                    <li>13:00 - Vielse i Alstadhaug kirke</li>
+                    <li>16:00 - Velkomst på Øyna + liten matbit</li>
+                    <li>17:00 - Middag</li>
+                    <li>21:00 - Kaffe og kake</li>
                 </ul>
             </div>
         </div>

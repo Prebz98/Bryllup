@@ -1,0 +1,5 @@
+.Bilde {
+    @media only screen and (max-width: 768px) {
+            max-height: 100vh;
+    }
+}

@@ -1,4 +1,4 @@
-import frontpage from './images/frontpage.jpg';
+import oppstilt from './images/oppstilt.jpg';
 import './App.css';
 import Intro from './components/Intro';
 import Hvor from './components/Hvor';
@@ -7,6 +7,8 @@ import Navbar from './components/navbar';
 import Dagen from './components/Dagen';
 import Kontaktinfo from './components/Kontaktinfo';
 import Overnatting from './components/Overnatting';
+import Forside from './components/Forside';
+import Svar from './components/Svar';
 
 const imageStyles = {
   maxWidth: '90%',
@@ -26,6 +28,7 @@ function App() {
 
   return (
     <div className="App" >
+      {/* <Forside></Forside> */}
       <div className='title'>
         Ane og Preben
       </div>
@@ -33,8 +36,9 @@ function App() {
         23. juli 2023
       </div>
       <Navbar refIntro={refIntro} refHvor={refHvor} refDagen={refDagen} refKontakt={refKontakt} />
-      <img src={frontpage} alt="ane og preben har det fint" style={imageStyles} />
+      <img src={oppstilt} alt="ane og preben har det fint" style={imageStyles} />
       <Intro />
+      <Svar/>
       <Hvor secref={refHvor} />
       <Dagen secref={refDagen} />
       <Overnatting secref={refOvernatting}/>
