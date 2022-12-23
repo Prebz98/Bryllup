@@ -8,7 +8,7 @@ function Hvor(props) {
       <h2 className='section-title'>Hvor og når?</h2>
       <div className="section-text">
         <p>
-            Bryllupet er søndag 23. juli 2023 i Levanger. Vi gifter oss i Alstadhaug kirke klokka 14:00, før veien går til Øyna kulturlandskapshotell. Der blir det servering og feiring.  
+            Bryllupet er søndag 23. juli 2023 i Levanger. Vi gifter oss i Alstadhaug kirke klokka 13:00, før veien går til Øyna kulturlandskapshotell. Der blir det servering og feiring.  
         </p>
         </div>
     </div>
