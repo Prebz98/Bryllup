@@ -11,7 +11,7 @@ function Dagen(props) {
                 <ul className="plan">
                     <li>13:00 - Vielse i Alstadhaug kirke</li>
                     <li>16:00 - Velkomst på Øyna + liten matbit</li>
-                    <li>17:00 - Middag</li>
+                    <li>17:00 - Servering, tre retter og alkoholfritt</li>
                     <li>21:00 - Kaffe og kake</li>
                 </ul>
             </div>

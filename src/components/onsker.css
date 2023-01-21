@@ -1,0 +1,9 @@
+.onskeliste {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+}
