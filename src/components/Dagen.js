@@ -10,9 +10,10 @@ function Dagen(props) {
             <div className="section-text">
                 <ul className="plan">
                     <li>13:00 - Vielse i Alstadhaug kirke</li>
-                    <li>16:00 - Velkomst på Øyna + liten matbit</li>
+                    <li>15:30 - Velkomst på Øyna + liten matbit</li>
                     <li>17:00 - Tre retter og alkoholfri servering</li>
                     <li>21:00 - Kaffe og kake</li>
+<li>Natta - Nattmat</li>
                 </ul>
             </div>
         </div>
